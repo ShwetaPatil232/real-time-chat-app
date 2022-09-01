@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <title>Real-Time Chat Application</title> -->
+        <title>Let's Chat</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+
+        <div>
+            <h1>Let's Chat : Real time Chat Application.</h1>
+            <br>
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Developed by : Shweta Patil</h2>
+        </div>
+        <br> <br>
+
+        <div class="container">
+
+            <section class="chat_section" >
+
+                <div class="brand">
+                    <img height="40" src="/chat.png" alt="">
+                    <h1>Let's Chat</h1>
+                </div>
+        
+                <div class="message_area"></div>
+        
+        
+                <div>
+                    <textarea id="textarea" cols="30" rows="1" placeholder="Write a Message."></textarea>
+                </div>
+            </section>
+        </div>
+
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="client.js"></script>
+    </body>
+    </html>
